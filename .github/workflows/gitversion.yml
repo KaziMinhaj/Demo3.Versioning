@@ -1,0 +1,24 @@
+mode: Mainline
+major-version-bump-message: \+major
+minor-version-bump-message: \+minor
+patch-version-bump-message: \+patch
+commit-date-format: yyyy-MM-dd
+branches:
+  master:
+    tag: ''
+    regex: ^master$
+    increment: patch
+    is-mainline: true
+  feature:
+    regex: ^feature/
+    tag: useBranchName
+    increment: Patch
+    source-branches:
+      - master
+  bug:
+    regex: ^bug/
+    tag: useBranchName
+    increment: Patch
+    source-branches:
+      - master
+      - feature
