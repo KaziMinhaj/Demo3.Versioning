@@ -1,6 +1,2 @@
-console.log('first');
-console.log('first');
-console.log('first');
-console.log('first');
-console.log('first');
-console.log('first');
+console.log('kazi');
+console.log('minhaj');
