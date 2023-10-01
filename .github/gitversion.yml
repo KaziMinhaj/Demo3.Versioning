@@ -9,12 +9,4 @@ branches:
     mode: ContinousDeployment
     tag: useBranchName
     increment: Minor
-    source-branches:
-      - master
-  bug:
-    regex: ^bug/
-    tag: useBranchName
-    increment: Patch
-    source-branches:
-      - master
-      - feature
+
