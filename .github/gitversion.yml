@@ -7,7 +7,7 @@ branches:
   master:
     tag: ''
     regex: ^master$
-    increment: patch
+#    increment: patch
     is-mainline: true
   feature:
     regex: ^feature/
