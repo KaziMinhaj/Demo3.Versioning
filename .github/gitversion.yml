@@ -12,7 +12,8 @@ branches:
   feature:
     regex: ^feature/
     tag: useBranchName
-    increment: Patch
+    increment: Minor
+    mode: ContinousDeployment 
     source-branches:
       - master
   bug:
