@@ -6,7 +6,6 @@ commit-date-format: yyyy-MM-dd
 branches:
   feature:
     regex: ^feature/
-    mode: ContinousDeployment
     tag: useBranchName
     increment: Minor
 
